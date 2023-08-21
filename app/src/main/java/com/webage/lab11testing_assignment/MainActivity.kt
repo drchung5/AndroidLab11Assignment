@@ -50,7 +50,6 @@ fun Testing( vm :AdditionViewModel = AdditionViewModel() ) {
             modifier = Modifier
                 .width(80.dp)
                 .padding(10.dp)
-                .testTag("text-a")
         )
 
         OutlinedTextField(
@@ -59,7 +58,6 @@ fun Testing( vm :AdditionViewModel = AdditionViewModel() ) {
             modifier = Modifier
                 .width(80.dp)
                 .padding(10.dp)
-                .testTag("text-b")
         )
 
         Button(
@@ -67,7 +65,6 @@ fun Testing( vm :AdditionViewModel = AdditionViewModel() ) {
             modifier = Modifier
                 .width(100.dp)
                 .padding(10.dp)
-                .testTag("button-add")
         ) {Text("ADD")}
 
         OutlinedTextField(
@@ -77,7 +74,6 @@ fun Testing( vm :AdditionViewModel = AdditionViewModel() ) {
             modifier = Modifier
                 .width(80.dp)
                 .padding(10.dp)
-                .testTag("text-c")
         )
 
     }
